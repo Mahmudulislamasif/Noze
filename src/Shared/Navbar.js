@@ -41,7 +41,10 @@ const Navbar = () => {
                     </li>
                         </ul>
                     </div> 
-                    
+                    <div>
+                    <p className="text-[#6B5A78] text-lg mr-2 block fixed bottom-0 right-32 lg:hidden">Order for $249</p>
+                    <label for="my-modal" className="bg-[#654A9B] block fixed left-0 bottom-0 lg:hidden  cursor-pointer py-3.5 px-9 text-white rounded-md">Pre order</label>
+                    </div>
                     </div>
                     <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal p-0">
@@ -54,7 +57,8 @@ const Navbar = () => {
                 <div class="navbar-end">
                     <p className="text-[#6B5A78] text-lg mr-2 hidden lg:block">Order for $249</p>
                     <label for="my-modal" className="bg-[#654A9B] hidden lg:block  cursor-pointer py-3.5 px-9 text-white rounded-md">Pre order</label>
-                    <p className="relative top-72 right-0 p-4 rounded-lg z-30 text-white bg-[#654A9B] ">Cart <span className="block">{increase}</span><FontAwesomeIcon icon={faCartShopping}></FontAwesomeIcon></p>
+                    <p className="fixed top-72 right-0 p-4 rounded-lg z-30 text-white bg-[#654A9B] ">Cart <span className="flex flex-col">{increase}
+                    <FontAwesomeIcon icon={faCartShopping}></FontAwesomeIcon></span></p>
                 </div>
                 </div>
                     <input type="checkbox" id="my-modal" class="modal-toggle" />
