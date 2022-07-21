@@ -1,4 +1,3 @@
-# Getting Started with Create React App
+# Noze Website
 
-[Create React App](https://github.com/facebook/create-react-app).
-
+[Create React App](https://soft-centaur-01d0b3.netlify.app/).
